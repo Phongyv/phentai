@@ -7,7 +7,7 @@
 :root{
     --background-color: rgb(60, 60, 60);
     --navbar-color: #272727f2;
-    --sidebar-color:#141414cf;
+    --sidebar-color:#141414a4;
 }
 
 body{
@@ -15,6 +15,7 @@ body{
 }
 
 .home{
+    top: 0;
     position: fixed;
     z-index: 1;
     height: 50px;
@@ -22,6 +23,7 @@ body{
     background-color: var(--navbar-color);
     display: flex;
     justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 #home-menu{
@@ -61,8 +63,9 @@ body{
 
 
 .sidebar{
+    top:0;
     position:fixed;
-    z-index: 1;
+    z-index: 2;
     height: calc(100% - 50px);
     width: 250px;
     background-color:var(--sidebar-color);
@@ -70,6 +73,7 @@ body{
     left: -250px;
     display: flex;
     flex-direction: column;
+    border-right: 0.01px solid rgba(245, 245, 245, 0.361);
 }
 
 .sidebar-item{

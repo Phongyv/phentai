@@ -2,6 +2,7 @@
 function Game(){
     return(
         <>
+        Game
         </>
     )
 }

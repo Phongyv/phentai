@@ -2,6 +2,7 @@
 function Chat(){
     return(
         <>
+        Chat
         </>
     )
 }
